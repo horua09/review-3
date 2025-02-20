@@ -1,0 +1,19 @@
+h1 {
+    font-size: 24px;
+}
+.firstcontainer {
+    display: flex;
+    flex-direction: row;
+    border: solid pink 4px;
+
+}
+img {
+    width: 100px;
+}
+.secondcontainer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+    margin: 16px 16px 16px 16px;
+    border: solid pink 4px;
+}
