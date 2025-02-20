@@ -1,19 +1,54 @@
-h1 {
+body {
     font-size: 24px;
 }
-.firstcontainer {
+.container1 {
     display: flex;
-    flex-direction: row;
     border: solid pink 4px;
-
 }
 img {
     width: 100px;
 }
-.secondcontainer {
+.container2 {
     display: flex;
-    justify-content: flex-end;
     gap: 16px;
-    margin: 16px 16px 16px 16px;
     border: solid pink 4px;
+}
+.container3 {
+    border: solid pink 4px;
+    display:flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+}
+.container4 {
+    border: solid pink 4px;
+    display: flex;
+    justify-content: space-between;
+    margin: 16px;
+    gap: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.container5 {
+    border: solid pink 4px;
+    display: flex;
+    justify-content: end;
+    gap: 16px;
+    padding: 16px;
+}
+.container6 {
+    border: solid pink 4px;
+    display: flex;
+    justify-content: space-around;
+    gap: 16px;
+}
+.container7 {
+    border: solid pink 4px;
+    display: flex;
+    width: 400px;
+    height: 400px;
+    align-items: center;
+    gap: 16px;
+    justify-content: end;
+    padding: 16px;
 }
